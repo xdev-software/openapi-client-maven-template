@@ -238,6 +238,9 @@
 						<artifactId>maven-pmd-plugin</artifactId>
 						<version>3.28.0</version>
 						<configuration>
+							<rulesets>
+								<ruleset>../../.config/pmd/java/ruleset.xml</ruleset>
+							</rulesets>
 							<excludeRoots>
 								<excludeRoot>${generatedDir}</excludeRoot>
 							</excludeRoots>
